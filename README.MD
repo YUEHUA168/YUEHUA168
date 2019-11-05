@@ -2,19 +2,19 @@
 # etvGame
 The first game for blockchain, see https://game.etheralliance.io/
 # Rule analysis
-* 45% static
-* 20% dynamic within 3 generations
+* 61% static
+* 9% dynamic within 3 generations
 * 12% leader distribution
-* 10% Insurance pool
+* 5% Insurance pool
 * 3% lucky prize pool
 * 3% platform fee
 * 7% Team node distribution
 
 ```Solidity
-  uint256 public static = 45;
-  uint256 public dynamic = 20;
+  uint256 public static = 61;
+  uint256 public dynamic = 9;
   uint256 public leader = 12;
-  uint256 public insurance = 10;
+  uint256 public insurance = 5;
   uint256 public lucky = 3;
   uint256 public platform = 3;
   uint256 public team = 7;
