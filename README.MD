@@ -83,7 +83,7 @@ The first game for blockchain, see https://game.etheralliance.io/
   function staticIncome()
   public onlyWhitelisted isActivated {
 
-    //calc cur staticIncome rand: 1-3
+    //calc cur staticIncome rand: 1-2
     staticRand = randLoc(MAX_STATIC_RAND).add(1);
 
     for(uint256 idx = 0; idx < plays.length; idx++){
