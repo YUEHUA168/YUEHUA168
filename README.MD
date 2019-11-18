@@ -3,7 +3,7 @@
 The first game for blockchain, see https://game.etheralliance.io/
 # Rule analysis
 * 55% static
-* 15% dynamic within 3 generations
+* 15% dynamic within 2 generations
 * 12% leader distribution
 * 5% Insurance pool
 * 3% lucky prize pool
