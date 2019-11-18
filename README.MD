@@ -2,8 +2,8 @@
 # etvGame
 The first game for blockchain, see https://game.etheralliance.io/
 # Rule analysis
-* 61% static
-* 9% dynamic within 3 generations
+* 55% static
+* 15% dynamic within 3 generations
 * 12% leader distribution
 * 5% Insurance pool
 * 3% lucky prize pool
@@ -11,8 +11,8 @@ The first game for blockchain, see https://game.etheralliance.io/
 * 7% Team node distribution
 
 ```Solidity
-  uint256 public static = 61;
-  uint256 public dynamic = 9;
+  uint256 public static = 55;
+  uint256 public dynamic = 15;
   uint256 public leader = 12;
   uint256 public insurance = 5;
   uint256 public lucky = 3;
@@ -83,7 +83,7 @@ The first game for blockchain, see https://game.etheralliance.io/
   function staticIncome()
   public onlyWhitelisted isActivated {
 
-    //calc cur staticIncome rand: 1-2
+    //calc cur staticIncome rand: 0.3-2
     staticRand = randLoc(MAX_STATIC_RAND).add(1);
 
     for(uint256 idx = 0; idx < plays.length; idx++){
